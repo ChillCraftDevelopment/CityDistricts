@@ -7,7 +7,7 @@
 # --------------------------------------------------------------- #
 
 
-data modify entity @n[type=minecraft:armor_stand] CustomName set from entity @s Item.tag.display.Name
+data modify entity @n[type=minecraft:armor_stand] CustomName set from entity @s Item.components.minecraft:custom_name
 data merge entity @n[type=minecraft:armor_stand] {Invisible:1b,Marker:1b,NoGravity:1b}
 tag @n[type=minecraft:armor_stand] add cd_dist_dark_green
 tag @n[type=minecraft:armor_stand] add global.ignore
