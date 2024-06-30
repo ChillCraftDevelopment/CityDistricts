@@ -19,4 +19,4 @@ kill @s
 execute at @p run function city_districts:cities/gold/show_title_gold
 particle minecraft:cloud ~ ~ ~ .1 1 .1 0.4 250
 playsound minecraft:ui.toast.challenge_complete ambient @e[type=player,distance=..10] ~ ~ ~ 50
-tellraw @e[type=player,distance=..1000] [{"text":"[CD] ","color":"dark_aqua"},{"nbt":"CustomName","entity":"@e[type=armor_stand, tag=cd_dist_gold, sort=nearest, limit=1]","interpret":"true","color":"gold"}, {"text":" has been founded by ","color":"dark_aqua"}, {"selector":"@p","color":"dark_aqua"}, {"text":"!","color":"dark_aqua"}]
+tellraw @e[type=player,distance=..1000] [{"text":"[CD] ","color":"dark_aqua"},{"selector":"@n[type=armor_stand, tag=cd_dist_gold]","color":"gold"}, {"text":" has been founded by ","color":"dark_aqua"}, {"selector":"@p","color":"dark_aqua"}, {"text":"!","color":"dark_aqua"}]
