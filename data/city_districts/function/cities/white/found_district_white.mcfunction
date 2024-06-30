@@ -7,8 +7,8 @@
 # --------------------------------------------------------------- #
 
 
-data modify entity @e[type=minecraft:armor_stand,limit=1,sort=nearest] CustomName set from entity @s Item.tag.display.Name
-data merge entity @e[type=minecraft:armor_stand,limit=1,sort=nearest] {Invisible:1b,Marker:1b,NoGravity:1b}
+data modify entity @n[type=minecraft:armor_stand,limit=1] CustomName set from entity @s Item.components.minecraft:custom_name
+data merge entity @n[type=minecraft:armor_stand,limit=1] {Invisible:1b,Marker:1b,NoGravity:1b}
 tag @e[type=minecraft:armor_stand,sort=nearest,limit=1] add cd_dist_white
 tag @e[type=minecraft:armor_stand,sort=nearest,limit=1] add global.ignore
 tag @e[type=minecraft:armor_stand,sort=nearest,limit=1] add global.ignore.pos
