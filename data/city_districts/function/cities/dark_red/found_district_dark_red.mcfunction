@@ -7,12 +7,12 @@
 # --------------------------------------------------------------- #
 
 
-data modify entity @e[type=minecraft:armor_stand,limit=1,sort=nearest] CustomName set from entity @s Item.tag.display.Name
-data merge entity @e[type=minecraft:armor_stand,limit=1,sort=nearest] {Invisible:1b,Marker:1b,NoGravity:1b}
-tag @e[type=minecraft:armor_stand,sort=nearest,limit=1] add cd_dist_dark_red
-tag @e[type=minecraft:armor_stand,sort=nearest,limit=1] add global.ignore
-tag @e[type=minecraft:armor_stand,sort=nearest,limit=1] add global.ignore.pos
-tag @e[type=minecraft:armor_stand,sort=nearest,limit=1] add global.ignore.kill
+data modify entity @n[type=minecraft:armor_stand] CustomName set from entity @s Item.tag.display.Name
+data merge entity @n[type=minecraft:armor_stand] {Invisible:1b,Marker:1b,NoGravity:1b}
+tag @n[type=minecraft:armor_stand] add cd_dist_dark_red
+tag @n[type=minecraft:armor_stand] add global.ignore
+tag @n[type=minecraft:armor_stand] add global.ignore.pos
+tag @n[type=minecraft:armor_stand] add global.ignore.kill
 kill @s
 
 # Fun particles and sounds
