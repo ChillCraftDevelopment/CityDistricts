@@ -7,5 +7,5 @@
 # --------------------------------------------------------------- #
 
 title @a times 20 20 5
-title @e[type=player,tag=!cd_seenTitle,distance=..1.2,sort=nearest,limit=1] title {"nbt":"CustomName","entity":"@n[type=armor_stand, tag=cd_dist_white, limit=1]","interpret":"true","color":"white"}
+title @e[type=player,tag=!cd_seenTitle,distance=..1.2,sort=nearest,limit=1] title {"selector":"@n[type=armor_stand, tag=cd_dist_white]","color":"white"}
 tag @e[type=player,distance=..1.2] add cd_seenTitle

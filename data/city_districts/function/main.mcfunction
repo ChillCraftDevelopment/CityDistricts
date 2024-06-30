@@ -12,22 +12,9 @@ execute as @a if score @s cd_help matches 1.. run function city_districts:utilit
 # White
 tag @e[type=item,nbt={Item:{id:"minecraft:white_banner"}},tag=!cd_white,tag=!global.ignore,sort=nearest,limit=1] add cd_white
 execute as @e[type=item,nbt={Tags:[cd_white]}] at @s if entity @e[type=armor_stand,distance=..1,sort=nearest,limit=1,tag=!cd_dist_white,tag=!global.ignore] run function city_districts:cities/white/found_district_white
-
-
-
-
-
-
-
-
-
-
-
-
-
 execute as @e[tag=cd_dist_white] at @s if entity @e[type=player,distance=..1.2,tag=!cd_seenTitle] at @s run function city_districts:cities/white/show_title_white
 execute as @e[tag=cd_dist_white] at @s if entity @e[type=player,distance=3..,tag=cd_seenTitle] at @s run function city_districts:utility/remove_spam
-#execute as @e[tag=cd_dist_white] at @s if block ~ ~ ~ minecraft:fire run function city_districts:cities/white/delete_district_white
+execute as @e[tag=cd_dist_white] at @s if block ~ ~ ~ minecraft:fire run function city_districts:cities/white/delete_district_white
 execute at @e[tag=cd_dist_white] run particle minecraft:glow ~ ~-0.6 ~ .1 .1 .1 100 1
 
 # Gray
