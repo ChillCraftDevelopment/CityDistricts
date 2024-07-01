@@ -44,6 +44,6 @@ Datapack for Minecraft 1.21! Lets you create RPG-Like titles in certain areas th
 
 <p>Uninstall the datapack with <code>/function city_districts:utility/uninstall</code>.</p>
 
-[release]:https://github.com/maxheyn/city_districts/releases/latest "Latest Release (external link)"
+[release]:https://github.com/ChillCraftDevelopment/city_districts/releases/latest "Latest Release (external link)"
 [issues]:https://github.com/maxheyn/city_districts/issues "Issues (external link)"
 [planetminecraft]: https://www.planetminecraft.com/data-pack/city-districts-rpg-like-titles/ "Planet Minecraft Webpage (external link)"
