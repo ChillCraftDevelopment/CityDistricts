@@ -37,8 +37,31 @@
 			}
 		],
 		"icon": {
-			"item": "minecraft:cyan_banner",
-			"nbt": "{BlockEntityTag:{Patterns:[{Pattern:mc,Color:13},{Pattern:bri,Color:8},{Pattern:bt,Color:15},{Pattern:bs,Color:5},{Pattern:tts,Color:3},{Pattern:bts,Color:13}]}}"
+			"id": "minecraft:cyan_banner",
+			"components": {
+				"minecraft:banner_patterns": [
+					{
+						"pattern": "minecraft:bricks",
+						"color": "light_gray"
+					},
+					{
+						"pattern": "minecraft:triangles_top",
+						"color": "light_blue"
+					},
+					{
+						"pattern": "minecraft:triangle_bottom",
+						"color": "black"
+					},
+					{
+						"pattern": "minecraft:stripe_bottom",
+						"color": "lime"
+					},
+					{
+						"pattern": "minecraft:triangles_bottom",
+						"color": "green"
+					}
+				]
+			} 
 		},
 		"announce_to_chat": false,
 		"show_toast": false
