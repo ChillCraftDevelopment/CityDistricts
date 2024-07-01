@@ -8,7 +8,7 @@
 
 </div>
 <h1>City Districts</h1>
-Datapack for Minecraft 1.17.1+! Lets you create RPG-Like titles in certain areas that show up when you walk over them. Good for roleplaying or adding a bit of extra flair to a build. Works great in multiplayer too!<br>
+Datapack for Minecraft 1.21! Lets you create RPG-Like titles in certain areas that show up when you walk over them. Good for roleplaying or adding a bit of extra flair to a build. Works great in multiplayer too!<br>
 
 - Features 11 Different Title Colors
   - Aqua (Light Blue Banner)
